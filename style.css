@@ -20,6 +20,10 @@ body {
 .page#landing .typewrite {
   font-size: 3em;
 }
+.page#landing .typewrite > span {
+  display: inline-block;
+  margin-top: 20px;
+}
 .page#landing .typewrite.typing > span:last-child {
   border-right: 0.08em solid #fff;
 }
@@ -62,6 +66,9 @@ body {
 .page#about .columns > div {
   width: 300px;
   padding: 15px;
+}
+.page#about .columns > div h2 {
+  font-size: 1.3em;
 }
 .page#about .columns > div img {
   width: 100%;
@@ -125,7 +132,7 @@ body {
   font-size: 100px;
 }
 .page#journey .timeline-row .timeline-desc {
-  max-width: 500px;
+  width: 500px;
   padding: 0 20px;
   text-align: left;
 }
